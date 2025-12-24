@@ -68,7 +68,7 @@ Tue Dec 23 10:11:04 2025
 +-----------------------------------------------------------------------------------------+
 ```
 
-Check node info to confirm available number of GPUs registered by the device plguin
+Check node info to confirm available number of GPUs registered by the device plugin
 
 ```bash
 kubectl describe node
@@ -193,7 +193,7 @@ Output:
 
 ### Test 2: Ensure that access to accelerators from within containers is properly isolated.
 
-#### Step 1. Create two Pods, each is allocated an accelerator resource. Run nvidia-smi to ensure that each pod can only access to the allocated accelerator.
+#### Step 1. Create two Pods, each is allocated an accelerator resource. Run nvidia-smi to ensure that each pod can only access the allocated accelerator.
 
 ```yaml
 apiVersion: apps/v1

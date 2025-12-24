@@ -107,7 +107,7 @@ NAME                              READY   STATUS                     RESTARTS   
 deepseek-r1-qwen-84b95998-qtwgn   1/1     Running                    0          78m
 ```
 
-Create an PodMonitor
+Create a PodMonitor
 
 ```yaml
 apiVersion: monitoring.coreos.com/v1

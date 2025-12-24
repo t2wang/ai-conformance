@@ -1,7 +1,7 @@
 **MUST Requirement:** Ensure that access to accelerators from within containers is properly isolated and mediated by the Kubernetes resource management framework (device plugin or DRA) and container runtime, preventing unauthorized access or interference between workloads.
 
 ## Tests Executed
-### Test 1: Ensure that access to accelerators from within containers mediated by the Kubernetes resource management framework (device plugin or DRA) and container runtime.
+### Test 1: Ensure that access to accelerators from within containers is mediated by the Kubernetes resource management framework (device plugin or DRA) and container runtime.
 
 #### Step 1. Prepare the test environment
 
